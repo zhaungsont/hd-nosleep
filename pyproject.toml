@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hd-nosleep"
+version = "0.1.0"
+description = ""
+authors = ["Michael Chuang <zhaungsont@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+py2app = "^0.28.8"
+pyautogui = "^0.9.54"
+pynput = "^1.7.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
