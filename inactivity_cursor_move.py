@@ -2,7 +2,7 @@ import pyautogui
 import time
 from pynput import mouse, keyboard
 
-INACTIVITY_LIMIT = 4  # * 60  # 4 minutes in seconds
+INACTIVITY_LIMIT = 4 * 60  # 4 minutes in seconds
 MOVE_DISTANCE = 5  # Distance to move the cursor
 
 last_activity_time = time.time()
